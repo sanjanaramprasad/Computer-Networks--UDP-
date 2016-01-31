@@ -1,0 +1,2 @@
+# Computer-Networks--UDP-
+Devised a UDP client program that sent data to a server on a specified port. The server echoed back the duplicated contents. For the request and response, the checksum was calculated which was verified and displayed by taking a tcpdump. Subsequently, a second request was made by appending 6 characters to the original data. By ensuring the checksum remained the same and that the first four characters matched the original input, the two remaining characters were computed.
